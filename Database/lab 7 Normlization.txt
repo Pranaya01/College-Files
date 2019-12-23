@@ -1,0 +1,36 @@
+#Question 1
+UNF
+Order(order-no*, order-date, {cust-no, cust-name, cust-address, prod-no, prod-desc,unit-price,order-qty,line-total})
+
+1NF: 
+Order1(order-no*, order-date)
+Cust-Order1(order-no*, cust-no*, cust-name, cust-address, prod-no, prod-desc,unit-price,order-qty,line-total)
+
+2NF:
+Removing partial dependency
+- order-no -> order-qty
+- cust-no -> cust-name, cust-address
+- order-no, cust-no ->  order-qty,line-total
+- prod-no -> prod-no, prod-desc,unit-price
+
+Order2(order-no*, order-date)
+Cust-Order2(order-no*, cust-no*, prod-no*,order-qty,line-total)
+Cust2(cust-no*, cust-name, cust-address)
+Prod2(prod-no*,prod-desc,unit-price) 
+
+3NF
+There is not Transtive Dependency
+Order3(order-no*, order-date)
+Cust-Order3(order-no*, cust-no*, prod-no*,order-qty,line-total)
+Cust3(cust-no*, cust-name, cust-address)
+Prod3(prod-no*,prod-desc,unit-price) 
+
+
+#Question 2
+ UNF:
+Module({id, name, address}, module-code, module, faculty, year)
+
+1NF:
+Module(module-code*, module, faculty, year)
+Student-info(module-code*, id*, name, address)
+

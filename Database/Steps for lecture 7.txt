@@ -1,0 +1,6 @@
+1.Uninstall 11g
+2. Install 32 bit of oracle 11g
+
+Run SQL Command Line
+connect system/system;
+ALTER USER hr account unlock;
