@@ -1,0 +1,51 @@
+SELECT c.category_id, cv.category_value, cl.club_name, cl.club_address 
+FROM club cl
+JOIN category c 
+ON cl.category_id = c.category_id
+JOIN category_value cv
+ON cl.cvalue_id = cv.cvalue_id;
+
+
+
+SELECT c.category_id, cv.category_value, cl.club_name, cl.club_address 
+FROM club cl
+JOIN category c
+ON cl.category_id = c.category_id
+JOIN category_value cv
+ON c.cvalue_id = cv.cvalue_id;
+
+CREATE TABLE If NOT Exists club(
+     row_id INT NOT NULL,
+     club_id INT(128) NOT NULL AUTO_INCREMENT,
+     cvalue_id INT(128) NOT NULL,
+     club_name VARCHAR(256) NOT NULL,
+     club_description TEXT NOT NULL,
+     club_founded_date VARCHAR(256),
+     club_address VARCHAR(256),
+     club_email VARCHAR(256), 
+     club_affiliation VARCHAR(256),
+     home_jersey_color VARCHAR(256) NOT NULL,
+     away_jersey_color VARCHAR(256) NOT NULL,
+     kit_sponsor VARCHAR(256) NOT NULL,
+     club_logo VARCHAR(256),
+     createdDate date NOT NULL DEFAULT CURRENT_TIMESTAMP,
+     createdBy VARCHAR(256),
+      modifiedDate date DEFAULT CURRENT_TIMESTAMP, 
+      modifiedBy VARCHAR(256),
+      isDeleted VARCHAR(256),
+      UNIQUE (row_id),
+      PRIMARY KEY (club_id),
+      FOREIGN KEY (cvalue_id) REFERENCES category_value(cvalue_id)
+    
+);
+
+SELECT c.category_title, cl.club_name, cl.club_address
+JOIN club cl
+ON c.club_id = cl.club_id;
+
+SELECT c.category_title, cv.category_value, cl.club_name, cl.club_address 
+FROM club cl 
+JOIN category_value cv 
+ON cl.cvalue_id = cv.cvalue_id
+JOIN category c
+ON cv.category_id = c.category_id;

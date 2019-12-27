@@ -1,0 +1,6 @@
+- Tour and Travel Company is established to help customer for making their holiday incredible
+- Company have no of staff
+- Each staff of company has different roles like receptionist, tour guide, travel agent, etc.
+- Company assign one role to each staff.
+- There are no of tour packages available in the compnay
+- Customer can take only one packages at a time
