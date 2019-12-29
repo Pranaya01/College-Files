@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A0E8C0F-A05B-2B6D-9D03-8AE970570661" name="Course">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:50:21 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Course_no" id="C3B0EE31-C7E1-F188-F3C6-2585FFD74D33">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:52:02 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_name" id="DED391AF-2D26-B3FA-1422-DF0362AF77B6">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:53:59 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instructor_Instructor_no" id="090D0707-949E-BF42-3998-10E189CF8CAE">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:06:28 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF2B186E-2598-F8DE-D657-3209B558AB1D" referredColumn="208E4D9B-84F4-8F08-8F7C-33F61DC7ECFD"/>
+</associations>
+</Column>
+<Column name="Module_code_module_code" id="EE352AE7-CDEB-FC3B-DFEC-352B1885CCDB">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:58:43 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7FBF5D3-D6E9-FA99-D38F-683BFD4FAA7A" referredColumn="A5FE3F58-CCA6-0200-74C4-86849E9133EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E5351E7-0C18-2051-936E-CC400EDC5682" name="Course_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:52:02 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B0EE31-C7E1-F188-F3C6-2585FFD74D33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBA46AE2-1044-FC67-E63B-2BEE441F26E8" name="Course_Instructor_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:06:28 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="090D0707-949E-BF42-3998-10E189CF8CAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83B378B9-3252-0562-0DCA-7CFF2288DA87" name="Course_Module_code_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:58:43 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE352AE7-CDEB-FC3B-DFEC-352B1885CCDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

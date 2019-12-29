@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A296CFF-1A16-A5C7-5903-B15157D51651" name="Instructor">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:56:59 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Instructor_no" id="208E4D9B-84F4-8F08-8F7C-33F61DC7ECFD">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:57:34 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instructor_name" id="8D16BABB-9F38-D776-AD12-0812009B6AB5">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:57:49 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Instructor_faculty" id="38DF0EB2-0680-EBB6-DFA2-CC897070FD15">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:59:31 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CA70C66-3C13-2C8E-9E93-B6C01FD036E7" name="Instructor_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:57:34 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208E4D9B-84F4-8F08-8F7C-33F61DC7ECFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

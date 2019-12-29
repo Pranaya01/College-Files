@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A433B330-22E0-6879-7FE0-624AB99D84EB" name="Seat">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:00:14 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Seat_id" id="C06AF4EF-111C-DE81-CCF6-845411676A3D">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:00:41 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Seat_position" id="71BE2438-E5F5-E86A-9472-BD9D9BC9A84B">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:01:24 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7508B103-7376-E066-1516-3F2980AFC725" name="Seat_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:00:41 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C06AF4EF-111C-DE81-CCF6-845411676A3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

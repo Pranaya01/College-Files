@@ -4,3 +4,7 @@ Textual Analysis + Normalization of Figure 1
 Text size - 12
 Arial, Times New Roman
 Readout and Assumption
+
+Next Week Task
+- Integration to Produce Draft ERD
+- Normalization of Figure 2

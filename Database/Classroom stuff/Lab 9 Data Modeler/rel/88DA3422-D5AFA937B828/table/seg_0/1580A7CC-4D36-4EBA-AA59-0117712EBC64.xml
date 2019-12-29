@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1580A7CC-4D36-4EBA-AA59-0117712EBC64" name="Student">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:44:21 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_id" id="8693071C-790C-21C9-E96C-F0E2D0379389">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:47:27 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8726A8C1-39B8-DACF-8FB8-DA7EEA8FD7A5" referredColumn="C06AF4EF-111C-DE81-CCF6-845411676A3D"/>
+</associations>
+</Column>
+<Column name="Student_name" id="0786E534-C1F1-13B8-9372-AC4C4DE55834">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:47:57 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_address" id="E2D5DA5B-DFA0-A0CA-7E93-1F676A3D871C">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:48:17 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_Course_no" id="B72304CF-6DC6-F8F6-787E-B61C47965F92">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:04:45 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E51CE78E-58C4-659E-A144-83AC1C377124" referredColumn="C3B0EE31-C7E1-F188-F3C6-2585FFD74D33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB5C8D1D-F449-B9B0-4A41-BBBDBFB795A0" name="Student_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 01:47:27 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8693071C-790C-21C9-E96C-F0E2D0379389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3075D523-5778-9547-9F02-B37E15F308F9" name="Student_Course_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:04:44 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B72304CF-6DC6-F8F6-787E-B61C47965F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B93DDE1D-9160-7437-9F71-9954838C792E" name="Student_Seat_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2019-12-29 02:11:33 UTC</createdTime>
+<ownerDesignName>Lab 9 Data Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8693071C-790C-21C9-E96C-F0E2D0379389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
