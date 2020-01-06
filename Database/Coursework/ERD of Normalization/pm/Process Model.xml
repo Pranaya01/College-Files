@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="5DD5E8D2-0A6E-D5FB-EF28-A3BF0D747EE3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-03 04:13:01 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
