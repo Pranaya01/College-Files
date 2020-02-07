@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0601C804-1435-1120-8D45-9FA59BF90029" name="Activity">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Activity_Id" id="6D5D7833-D309-430A-2037-C1AB90A924F3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activities" id="DCE2BFD0-5858-7FF1-508D-1C6A2BF051A0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package_Activity_Activity_Id" id="4E4FBB47-AEB8-716E-3B3E-03A9E0F903DC">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="6AC4147F-1124-35CD-2F91-1E3AEBC562B4">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E341B08D-7CB2-F041-293A-FC5E81361EB0" name="Activity_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D5D7833-D309-430A-2037-C1AB90A924F3"/>
+<colUsage columnID="4E4FBB47-AEB8-716E-3B3E-03A9E0F903DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ABD1434-8CE3-F3E0-1F42-EB5614247FD0" name="Package_Days">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Day" id="6F97B0DC-CB19-57F1-2444-F27BA3A64BF9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Travel_Detail" id="1FE3C5EC-1176-4EDC-709F-DB683BACDE04">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="661B6762-2DDF-E142-9BC7-46F0D74598BB">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package_Package_ID" id="E1EDBC82-BFAF-538B-F4F7-A187DCFB7B62">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26138C17-A577-351D-A203-84CE0D8A1D6D" referredColumn="66CF166A-CE2D-969E-C2F2-60BC588E6FC4"/>
+</associations>
+</Column>
+<Column name="Travel_Mode" id="DA952C95-6AF6-CD1E-4ED7-551210B95AE3">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7A9DD27-FCE1-63CC-8F6A-6A30B61F9DB2" name="Package_Days_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F97B0DC-CB19-57F1-2444-F27BA3A64BF9"/>
+<colUsage columnID="E1EDBC82-BFAF-538B-F4F7-A187DCFB7B62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CB5B1DC-0097-7A88-00A4-87DEFE09E667" name="Package_Days_Package_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1EDBC82-BFAF-538B-F4F7-A187DCFB7B62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

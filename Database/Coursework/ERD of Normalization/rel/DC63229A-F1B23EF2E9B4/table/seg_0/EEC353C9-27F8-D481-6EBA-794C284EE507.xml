@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEC353C9-27F8-D481-6EBA-794C284EE507" name="Package-Destination">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:28:25 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Package_Package_ID" id="A5EABF8D-EF6E-DF7B-61CB-B509D26F4CDC">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:38:35 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFEBD16A-5098-C777-768A-1505C73B8C2B" referredColumn="DC5ED07A-6322-5F78-1D82-F602D78784A3"/>
+</associations>
+</Column>
+<Column name="Destination" id="ADBD8C05-B153-A345-8D37-2849C1539092">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:45:12 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package-Destination_Destination" id="A63F1549-37D8-4296-0E63-C1E69BCC0C7B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:56:45 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89BE40C5-8FC2-E8FF-8AEE-C8BF4228D7D1" name="Package-Destination_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:34:29 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EABF8D-EF6E-DF7B-61CB-B509D26F4CDC"/>
+<colUsage columnID="ADBD8C05-B153-A345-8D37-2849C1539092"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71695381-CA8F-F690-83D4-39A710D96546" name="Package-Destination_Package_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:38:35 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5EABF8D-EF6E-DF7B-61CB-B509D26F4CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

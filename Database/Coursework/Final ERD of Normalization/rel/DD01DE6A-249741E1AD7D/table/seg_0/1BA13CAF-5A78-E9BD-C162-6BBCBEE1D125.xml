@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BA13CAF-5A78-E9BD-C162-6BBCBEE1D125" name="Package_Days">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:29:39 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Day" id="C1A94504-F0F0-38F7-1C1D-1570DDC01474">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:30:07 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Travel_Detail" id="DC748F17-F936-3DA0-1920-3CC2052F2670">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:30:35 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="26083AD9-3724-AEC2-A538-B58E179D0C72">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:31:12 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package_Package_ID" id="E29F22F6-A19D-F8BD-C8F9-E7C5D7E609F1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:38:48 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="158E1ACA-FC20-38B8-D579-90DD0FE8F3EC" referredColumn="B53721EF-21A4-27FF-3819-8737571AD4C9"/>
+</associations>
+</Column>
+<Column name="Travel_Mode" id="DE76FDEF-0E15-A135-2DDF-26102097E2A1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:40:16 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C6FFCCA-C0A2-BD93-FF59-32DA187D13A1" name="Package_Days_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:30:07 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1A94504-F0F0-38F7-1C1D-1570DDC01474"/>
+<colUsage columnID="E29F22F6-A19D-F8BD-C8F9-E7C5D7E609F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68E5C2C8-D364-8B2E-9978-EA3A7B686B1A" name="Package_Days_Package_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:38:48 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E29F22F6-A19D-F8BD-C8F9-E7C5D7E609F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

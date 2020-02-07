@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE535222-520A-075D-6C40-57A185B12F56" name="Package_Destination">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Destination_ID" id="4028E108-0999-69F4-B666-E7E4C6AF6EF0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package_Package_ID" id="4B88F5C6-2824-F4BE-EBDF-9FF94CCD89C9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3C0BA5F-F341-4DB3-5E80-4EEABD2B31EA" referredColumn="66CF166A-CE2D-969E-C2F2-60BC588E6FC4"/>
+</associations>
+</Column>
+<Column name="Destination_Destination_Id" id="4D7ACC30-EC55-00FE-950D-EF25272D3BEF">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FF71C92-76C9-F3DB-89B5-31F217C1A8B7" referredColumn="144F5B3F-90F7-7B51-C9DF-5F7CFD04F342"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5D14B46-F1C2-9BB9-D5B1-25D2AE8B3B6D" name="Package_Destination_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4028E108-0999-69F4-B666-E7E4C6AF6EF0"/>
+<colUsage columnID="4B88F5C6-2824-F4BE-EBDF-9FF94CCD89C9"/>
+<colUsage columnID="4D7ACC30-EC55-00FE-950D-EF25272D3BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE967686-2C5C-3F6E-4899-7ED8946345FB" name="Package_Destination_Package_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B88F5C6-2824-F4BE-EBDF-9FF94CCD89C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D9F560B-2382-A2FB-8F71-2D1174248A68" name="Package_Destination_Destination_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D7ACC30-EC55-00FE-950D-EF25272D3BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

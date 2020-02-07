@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E605240A-2EA9-15C6-26F1-4EE3CE08D030" name="Staff">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 09:00:42 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Staff_ID" id="21E0CA05-1033-7D11-10E8-093A92957800">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 09:01:11 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_Name" id="B371342D-C9A0-C66D-49E5-B7756932FD02">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 09:01:26 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="5F6110F7-3093-158E-51CF-1B6B7FF904FE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 09:03:48 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone_No" id="3114E96D-7FC7-6222-7BE7-411DDA9DD33B">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 09:04:18 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Designation_Id" id="4E92604F-8B9F-3289-20BF-FDED2F673087">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 06:07:56 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A63CF20C-F505-D483-4FD3-B3A76142EA17" referredColumn="EE3731A5-A238-4083-6FB8-DF7D700591BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6302EBEE-207A-BEB5-BA90-B729FA3C46E5" name="Staff_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 09:01:11 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21E0CA05-1033-7D11-10E8-093A92957800"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F98BD74-402E-A304-3460-CB16424C0E4C" name="Staff_Designation_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 06:07:56 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E92604F-8B9F-3289-20BF-FDED2F673087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

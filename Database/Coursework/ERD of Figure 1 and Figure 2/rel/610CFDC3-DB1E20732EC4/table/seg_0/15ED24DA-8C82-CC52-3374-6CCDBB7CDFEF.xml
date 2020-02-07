@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15ED24DA-8C82-CC52-3374-6CCDBB7CDFEF" name="PackageDestination">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 13:23:32 UTC</createdTime>
+<ownerDesignName>ERD of Figure 1 and Figure 2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Package_Package_ID" id="4ED8C4B2-BBF0-57AB-F93B-625C2CC3D57D">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 13:24:01 UTC</createdTime>
+<ownerDesignName>ERD of Figure 1 and Figure 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3759DA65-6B35-71A3-8CBF-8ADCF2A53E0D" referredColumn="8F3D7D21-E93D-BC50-545F-3596767B1809"/>
+</associations>
+</Column>
+<Column name="Destination_Destination_ID" id="B606AAEF-875A-4085-9780-AD17486AF0C0">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 13:26:35 UTC</createdTime>
+<ownerDesignName>ERD of Figure 1 and Figure 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C574AB6-3008-A6B8-3C00-9AAF87C7B807" referredColumn="3134A91A-16ED-1E3F-19D7-1F6775DB00BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCAD5BAB-14D5-20CB-03C0-FB65B382BB53" name="PackageDestination_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 13:26:48 UTC</createdTime>
+<ownerDesignName>ERD of Figure 1 and Figure 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ED8C4B2-BBF0-57AB-F93B-625C2CC3D57D"/>
+<colUsage columnID="B606AAEF-875A-4085-9780-AD17486AF0C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCF30959-A384-8FD8-CD1D-991856D1E351" name="PackageDestination_Package_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 13:24:01 UTC</createdTime>
+<ownerDesignName>ERD of Figure 1 and Figure 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ED8C4B2-BBF0-57AB-F93B-625C2CC3D57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECC527E0-B5D1-6510-F3B4-347091BC729E" name="PackageDestination_Destination_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 13:26:35 UTC</createdTime>
+<ownerDesignName>ERD of Figure 1 and Figure 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B606AAEF-875A-4085-9780-AD17486AF0C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F24CC850-ACDA-D80F-7A80-127325D49567" name="Activity">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:58:32 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Activtiy_ID" id="3E451A33-03DE-3938-FFD4-95161BC471ED">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:59:15 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activities" id="3BC94D07-B084-5814-7942-3F42E4A1E8FD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:59:38 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="535040A7-B249-E392-531A-5D4FCAD72E45" name="Activity_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:59:15 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E451A33-03DE-3938-FFD4-95161BC471ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

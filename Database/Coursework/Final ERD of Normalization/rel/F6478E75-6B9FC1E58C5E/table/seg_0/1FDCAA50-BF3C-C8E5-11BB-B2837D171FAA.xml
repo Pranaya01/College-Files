@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FDCAA50-BF3C-C8E5-11BB-B2837D171FAA" name="TourGuide">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 06:13:48 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Staff_ID" id="B12032A0-738A-E7F6-7DF5-8FCB32E67416">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 06:14:13 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28C6314E-EE04-1356-A277-B0864B42C17C" referredColumn="21E0CA05-1033-7D11-10E8-093A92957800"/>
+</associations>
+</Column>
+<Column name="Package_ID" id="932983A2-365C-2694-34FF-742B57CADCD8">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 06:15:01 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="446D7EEE-E94B-CFFC-67C1-6EBF9380B7C7" referredColumn="C4722BE1-C1BD-6DA6-7E96-22B06DEC0ACF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDE345F1-C476-2288-417B-59345E506998" name="TourGuide_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 08:14:30 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B12032A0-738A-E7F6-7DF5-8FCB32E67416"/>
+<colUsage columnID="932983A2-365C-2694-34FF-742B57CADCD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE718939-B2D6-C87A-57FC-5A9A35386DC2" name="Staff_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 06:14:13 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B12032A0-738A-E7F6-7DF5-8FCB32E67416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3019650-BD1C-0FFE-AD3A-1294046B72E6" name="Package_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-30 06:15:01 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="932983A2-365C-2694-34FF-742B57CADCD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

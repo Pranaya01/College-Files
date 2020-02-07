@@ -1,0 +1,4 @@
+ModelID,Num_ModelID,Model_Name,Model_Type,RDBMS_Type
+5AFA906D-6D1F-1DB7-5A75-6F33040707F7,69,"Logical",Logical,,
+81383676-E86C-C67C-B362-C404EFA5C818,70,"OverAll ERD",Relational,Oracle Database 11g,
+F6478E75-38F5-D2BB-2FA9-6B9FC1E58C5E,71,"Relational_5",Relational,Oracle Database 11g,

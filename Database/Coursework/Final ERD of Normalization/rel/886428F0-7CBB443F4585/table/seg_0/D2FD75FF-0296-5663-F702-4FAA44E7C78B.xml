@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2FD75FF-0296-5663-F702-4FAA44E7C78B" name="Activity">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 08:46:58 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Activity_ID" id="4146C01F-21DD-15FE-F3EE-678015A7E413">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 08:47:23 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activities" id="A763F555-20E8-1E1B-CDE8-341C5C8B0368">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 08:47:39 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69FB576B-2AA9-AA8E-DCB3-A4377402B0BC" name="Activity_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-10 08:47:23 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4146C01F-21DD-15FE-F3EE-678015A7E413"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E0F02BA-E773-F4F7-DD57-D3D924F15A4E" name="Destination">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-12 02:22:43 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Destination_ID" id="43C6BE60-8B6A-B544-DA2E-7B638365C874">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-12 02:23:11 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Destination" id="F4E3EE85-043A-6631-1B85-5C2E91B2D5BA">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-12 02:23:28 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C4D3BA3-1C12-660A-CB68-FD24D1AF3A84" name="Destination_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-12 02:23:11 UTC</createdTime>
+<ownerDesignName>Final ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C6BE60-8B6A-B544-DA2E-7B638365C874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

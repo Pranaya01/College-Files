@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC469C93-F715-CEF3-792F-9E80CC15FF30" name="Activity">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:49:57 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Activity_Id" id="26542502-3930-38B3-BB9B-CCC2BCB8CE70">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:50:53 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Activities" id="266C9876-0DB4-3BDE-BAFD-A30927A3C32F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:51:12 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package_Activity_Activity_Id" id="58E9BE1D-F1B4-584B-04C2-CDC45F676D58">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:39:08 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="F4EA51B7-E883-2CDD-2319-6E174B9B578F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 09:51:10 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="541CB2F1-C044-C451-CE2C-AF573AC73366" name="Activity_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:50:53 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26542502-3930-38B3-BB9B-CCC2BCB8CE70"/>
+<colUsage columnID="58E9BE1D-F1B4-584B-04C2-CDC45F676D58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

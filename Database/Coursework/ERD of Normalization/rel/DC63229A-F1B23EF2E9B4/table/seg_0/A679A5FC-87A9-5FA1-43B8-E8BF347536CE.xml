@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A679A5FC-87A9-5FA1-43B8-E8BF347536CE" name="PackageActivity">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:54:40 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PackageDays_Package_Package_ID" id="439175BF-E9CB-67D8-9687-C62EAFDDA685">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:57:36 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00BAAB20-E2BC-D16F-6131-237B190DC3AB" referredColumn="0B2BCE1C-8BA0-A5A3-7E24-5FF662957B16"/>
+</associations>
+</Column>
+<Column name="PackageDays_Day" id="17DB6C9D-5A2D-7569-CCA3-D69F23C9E1F7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:57:36 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00BAAB20-E2BC-D16F-6131-237B190DC3AB" referredColumn="68A26FA3-0A06-37B9-3E0B-429D8B878D48"/>
+</associations>
+</Column>
+<Column name="Activity_Activtiy_ID" id="3A57D6ED-590B-3179-068B-EB07391BAAA7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:00:54 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C0672E8-81CA-FB98-8EA6-38DD70BC2329" referredColumn="3E451A33-03DE-3938-FFD4-95161BC471ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C31081D9-5901-B8BC-6370-56AA06D7DF72" name="PackageActivity_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 07:58:20 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439175BF-E9CB-67D8-9687-C62EAFDDA685"/>
+<colUsage columnID="17DB6C9D-5A2D-7569-CCA3-D69F23C9E1F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12E96408-5843-81B7-19AF-466ECA43EC30" name="PackageActivity_Activity_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:00:54 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A57D6ED-590B-3179-068B-EB07391BAAA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8849EB73-4195-1032-A6FB-A6344585721B" name="PackageActivity_PackageDays_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:01:29 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="439175BF-E9CB-67D8-9687-C62EAFDDA685"/>
+<colUsage columnID="17DB6C9D-5A2D-7569-CCA3-D69F23C9E1F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

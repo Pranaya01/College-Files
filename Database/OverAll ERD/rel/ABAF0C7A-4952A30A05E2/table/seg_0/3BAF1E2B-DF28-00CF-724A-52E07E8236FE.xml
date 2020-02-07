@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BAF1E2B-DF28-00CF-724A-52E07E8236FE" name="Package_Activity">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Activity_Id" id="3CEBE10C-6227-4F53-D113-D71171079683">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="192F3AA7-D5FA-D403-10A1-C73276D50917">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package_Days_Day" id="4FEECC72-1559-5CE6-95A2-49001CCFD6B9">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27082198-6328-9338-E2EC-21CE3C4DD844" referredColumn="6F97B0DC-CB19-57F1-2444-F27BA3A64BF9"/>
+</associations>
+</Column>
+<Column name="Package_Package_ID" id="A7BFCBB4-342A-284F-F27C-008644FC776F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A325C96F-1EC9-C8D4-54E8-8868CCA1EFB3" referredColumn="66CF166A-CE2D-969E-C2F2-60BC588E6FC4"/>
+</associations>
+</Column>
+<Column name="Package_Days_Package_Package_ID" id="8FE9A5DB-5943-22EB-D399-6839BF3FEEBE">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27082198-6328-9338-E2EC-21CE3C4DD844" referredColumn="E1EDBC82-BFAF-538B-F4F7-A187DCFB7B62"/>
+</associations>
+</Column>
+<Column name="Activity_Activity_Id" id="1E4B39B9-2C6F-BAA0-04EA-1811811508C1">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56BA9794-80E0-A158-4EE1-EED73FE17B3E" referredColumn="6D5D7833-D309-430A-2037-C1AB90A924F3"/>
+</associations>
+</Column>
+<Column name="Activity_Package_Activity_Activity_Id" id="4F809F50-758D-7C5F-71F2-DFC790B9D3FC">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:23:01 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56BA9794-80E0-A158-4EE1-EED73FE17B3E" referredColumn="4E4FBB47-AEB8-716E-3B3E-03A9E0F903DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E91A451B-EC02-8F29-D4E0-EB26808A1598" name="Package_Activity_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CEBE10C-6227-4F53-D113-D71171079683"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFB2DB34-89A9-D4BC-DB4C-9D67F5069657" name="Package_Activity_Package_Days_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FEECC72-1559-5CE6-95A2-49001CCFD6B9"/>
+<colUsage columnID="8FE9A5DB-5943-22EB-D399-6839BF3FEEBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EEE5456-62F7-210D-F423-6CC52D8BBD25" name="Package_Activity_Package_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:30 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7BFCBB4-342A-284F-F27C-008644FC776F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76AF0E1A-D623-9AC7-4ADC-FC06DFFE5354" name="Package_Activity_Activity_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:23:01 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E4B39B9-2C6F-BAA0-04EA-1811811508C1"/>
+<colUsage columnID="4F809F50-758D-7C5F-71F2-DFC790B9D3FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

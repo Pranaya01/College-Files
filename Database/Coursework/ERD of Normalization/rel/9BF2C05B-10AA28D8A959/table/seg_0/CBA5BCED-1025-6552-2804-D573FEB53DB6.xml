@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBA5BCED-1025-6552-2804-D573FEB53DB6" name="Package">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:20:06 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Package_ID" id="FE6A43BD-5E6C-E407-AE1B-31142E33CB9F">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:20:38 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Package_Name" id="D1EA1841-6923-7999-117C-A9B57F03F7D7">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:20:59 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B9B4272-FF8E-7019-E6CE-41CC94DAD48E" name="Package_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 08:20:38 UTC</createdTime>
+<ownerDesignName>ERD of Normalization</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE6A43BD-5E6C-E407-AE1B-31142E33CB9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

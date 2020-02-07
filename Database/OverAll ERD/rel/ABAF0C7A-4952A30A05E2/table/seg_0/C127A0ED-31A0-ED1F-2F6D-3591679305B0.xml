@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C127A0ED-31A0-ED1F-2F6D-3591679305B0" name="Destination">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Destination_Id" id="144F5B3F-90F7-7B51-C9DF-5F7CFD04F342">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Destination" id="4661ABC7-8961-CEE5-3DE8-A82C14005CDD">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E320D172-58B5-F9C7-1D38-FB41B0F4856C" name="Destination_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2020-01-09 10:18:29 UTC</createdTime>
+<ownerDesignName>OverAll ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="144F5B3F-90F7-7B51-C9DF-5F7CFD04F342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
